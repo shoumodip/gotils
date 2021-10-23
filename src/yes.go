@@ -6,14 +6,20 @@ import (
 )
 
 func main() {
-	if len(os.Args) != 2 {
-		fmt.Fprintln(os.Stderr, "Usage:")
-		fmt.Fprintln(os.Stderr, "  yes TEXT")
-		fmt.Fprintln(os.Stderr, "Error: insufficient arguments")
-		os.Exit(1)
+	text := ""
+
+	if len(os.Args) == 1 {
+		text = "y"
+	} else {
+		for i := 1; i < len(os.Args); i++ {
+			if i > 1 {
+				text += " "
+			}
+			text += os.Args[i]
+		}
 	}
 
 	for {
-		fmt.Println(os.Args[1])
+		fmt.Println(text)
 	}
 }
