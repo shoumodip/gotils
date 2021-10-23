@@ -23,5 +23,5 @@ The list of utilities
 - [X] echo
 - [X] factor
 - [X] seq
-- [ ] sleep
+- [X] sleep
 - [X] yes
