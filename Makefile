@@ -1,4 +1,4 @@
 %: src/%.go
 	go build $<
 
-all: grep cat tac echo
+all: grep cat tac echo seq yes

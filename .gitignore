@@ -2,3 +2,5 @@ grep
 cat
 tac
 echo
+seq
+yes

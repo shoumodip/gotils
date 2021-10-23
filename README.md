@@ -22,6 +22,6 @@ The list of utilities
 - [ ] dirname
 - [X] echo
 - [ ] factor
-- [ ] seq
+- [X] seq
 - [ ] sleep
-- [ ] yes
+- [X] yes
