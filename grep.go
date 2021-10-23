@@ -10,7 +10,7 @@ import (
 func matchFile(filePath string, pattern *regexp.Regexp) {
 	file, err := os.Open(filePath)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error: could not read file '%s': %s\n", os.Args[1], err)
+		fmt.Fprintf(os.Stderr, "Error: could not read file '%s': %s\n", filePath, err)
 		os.Exit(1)
 	}
 
