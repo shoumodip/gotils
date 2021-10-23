@@ -1,2 +1,4 @@
 grep
 cat
+tac
+echo
