@@ -1,4 +1,4 @@
-%: %.go
+%: src/%.go
 	go build $<
 
-all: grep
+all: grep cat
