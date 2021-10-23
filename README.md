@@ -14,8 +14,8 @@ The list of utilities
 - [X] cat
 - [X] grep
 - [ ] sed
-- [ ] head
-- [ ] tail
+- [X] head
+- [X] tail
 - [ ] sort
 - [X] tac
 - [ ] date

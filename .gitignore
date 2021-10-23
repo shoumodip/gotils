@@ -5,3 +5,5 @@ echo
 seq
 yes
 factor
+head
+tail
